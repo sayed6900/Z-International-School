@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import NavDrawer from "../../Pages/NavDrawer";
 
 
@@ -13,20 +14,20 @@ const Header = () => {
   
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1 ">
-      <li className="hover:bg-blue-500 rounded-md"><a>Home</a></li>
+      <li className="hover:bg-blue-500 rounded-md"><Link to='/'>Home</Link></li>
       <li>
         <details className="hover:bg-blue-500 rounded-md">
           <summary>About Us</summary>
           <ul className="bg-blue-600 text-white rounded-t-none p-2">
-            <li className=" hover:text-orange-500 font-semibold"><a>1.Vision,Mission & Value</a></li> 
-            <li className=" hover:text-orange-500 font-semibold"><a>2. Why Choose Us</a></li> 
-            <li className=" hover:text-orange-500 font-semibold"><a>3. Principal Massage</a></li> 
-            <li className=" hover:text-orange-500 font-semibold"><a>4. Our Team</a></li> 
-            <li className=" hover:text-orange-500 font-semibold"><a>5. Curriculum</a></li> 
-            <li className=" hover:text-orange-500 font-semibold"><a>6. History</a></li> 
-            <li className=" hover:text-orange-500 font-semibold"><a>7. Campus</a></li> 
-            <li className=" hover:text-orange-500 font-semibold"><a>8. Upcoming Events</a></li> 
-            <li className=" hover:text-orange-500 font-semibold"><a>9. Gallery</a></li> 
+            <li className=" hover:text-orange-500 font-semibold"><Link to='vision'>1.Vision,Mission & Value</Link> </li> 
+            <li className=" hover:text-orange-500 font-semibold"><Link to='whyUs'> 2. Why Choose Us</Link></li> 
+            <li className=" hover:text-orange-500 font-semibold"><Link to='principalMsg'> 3. Principal Massage</Link></li> 
+            <li className=" hover:text-orange-500 font-semibold"><Link to=''> 4. Our Team</Link></li> 
+            <li className=" hover:text-orange-500 font-semibold"><Link to=''>5. Curriculum</Link></li> 
+            <li className=" hover:text-orange-500 font-semibold"><Link to=''>6. History</Link></li> 
+            <li className=" hover:text-orange-500 font-semibold"><Link to=''>7. Campus</Link></li> 
+            <li className=" hover:text-orange-500 font-semibold"><Link to=''>8. Upcoming Events</Link></li> 
+            <li className=" hover:text-orange-500 font-semibold"><Link to=''>9. Gallery</Link></li> 
            
           </ul>
         </details>
