@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes moveUp {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .move-up {
+    animation: moveUp 10s linear infinite;
+  }
+
+  @keyframes moveRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(100% - 100vw));
+    }
+  }
+  
+  .move-right {
+    animation: moveRight 20s linear infinite;
+    animation-delay: 5s;
+  }
+  
