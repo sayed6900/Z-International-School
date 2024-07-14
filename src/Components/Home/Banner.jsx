@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="bg-blue-400 flex">
       <div className="w-1/2 lg:m-4 lg:p-8 space-y-4">
         <p className="text-white font-bold text-lg">Learn. Play. Explore</p>
-        <h1 className="text-blue-600 font-extrabold text-5xl">
+        <h1 className="text-blue-800 font-extrabold text-5xl">
           A safe and joyful place for your lovely children
         </h1>
         <p className="text-lg text-white">

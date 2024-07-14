@@ -3,7 +3,7 @@ import logoImg from '../../src/assets/image/Z int school logo.jpg'
 const NavDrawer = () => {
     return (
         <div>
-            <div className="drawer drawer-end">
+            <div className="drawer drawer-end z-50">
   <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
   <div className="drawer-content">
     {/* Page content here */}

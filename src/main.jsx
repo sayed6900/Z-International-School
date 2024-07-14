@@ -7,6 +7,18 @@ import Home from './Components/Home/Home.jsx';
 import VisionMission from './Pages/AboutUsPage/VisionMission.jsx';
 import WhyChooseUs from './Pages/AboutUsPage/WhyChooseUs.jsx';
 import PrincipalMsg from './Pages/AboutUsPage/PrincipalMsg.jsx';
+import OurTeam from './Pages/AboutUsPage/OurTeam.jsx';
+import Curriculum from './Pages/AboutUsPage/Curriculum.jsx';
+import Campus from './Pages/AboutUsPage/Campus.jsx';
+import Login from './Components/Login/Login.jsx';
+import Events from './Pages/AboutUsPage/Events.jsx';
+import Gallery from './Pages/AboutUsPage/Gallery.jsx';
+import Admission from './Pages/AdmissionPage/Admission.jsx';
+import HowToApply from './Pages/AdmissionPage/HowToApply.jsx';
+import ApplyOnline from './Pages/AdmissionPage/ApplyOnline.jsx';
+import OnlinePayment from './Pages/AdmissionPage/OnlinePayment.jsx';
+import Fees from './Pages/AdmissionPage/Fees.jsx';
+import Policies from './Components/Policies/Policies.jsx';
 
 const router = createBrowserRouter([
   {
@@ -30,12 +42,55 @@ const router = createBrowserRouter([
         element:<PrincipalMsg></PrincipalMsg>
       },
       {
-        path:'/whyUs',
-        element:<WhyChooseUs></WhyChooseUs>
+        path:'/ourTeam',
+        element:<OurTeam></OurTeam>,
+        loader:()=> fetch('teachers.json'),
       },
       {
-        path:'/whyUs',
-        element:<WhyChooseUs></WhyChooseUs>
+        path:'/curriculum',
+        element:<Curriculum></Curriculum>
+      },
+      {
+        path:'/campus',
+        element:<Campus></Campus>
+      },
+      {
+        path:'/login',
+        element:<Login></Login>
+      },
+      {
+        path:'/events',
+        element:<Events></Events>,
+        loader:()=> fetch('events.json')
+      },
+      
+      {
+        path:'/gallery',
+        element:<Gallery></Gallery> ,
+      },
+      {
+        path:'/admission',
+        element:<Admission></Admission> ,
+      },
+      {
+        path:'/howToApply',
+        element:<HowToApply></HowToApply> ,
+      },
+      {
+        path:'/applyOnline',
+        element:<ApplyOnline></ApplyOnline> ,
+      },
+      {
+        path:'/onlinePayment',
+        element:<OnlinePayment></OnlinePayment> ,
+      },
+      {
+        path:'/fees',
+        element:<Fees></Fees> ,
+      },
+      {
+        path:'/policy',
+        element:<Policies></Policies> ,
       },
       
     ]

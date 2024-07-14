@@ -1,0 +1,143 @@
+[
+    {
+      "name": "John Doe",
+      "pic": "https://randomuser.me/api/portraits/men/1.jpg",
+      "education": "M.Ed. in Mathematics",
+      "post": "Mathematics Teacher",
+      "research": "Algebraic Topology"
+    },
+    {
+      "name": "Jane Smith",
+      "pic": "https://randomuser.me/api/portraits/women/1.jpg",
+      "education": "M.Ed. in English",
+      "post": "English Teacher",
+      "research": "Shakespearean Literature"
+    },
+    {
+      "name": "Emily Johnson",
+      "pic": "https://randomuser.me/api/portraits/women/2.jpg",
+      "education": "M.Ed. in Science",
+      "post": "Science Teacher",
+      "research": "Astrobiology"
+    },
+    {
+      "name": "Michael Brown",
+      "pic": "https://randomuser.me/api/portraits/men/2.jpg",
+      "education": "M.Ed. in History",
+      "post": "History Teacher",
+      "research": "Ancient Civilizations"
+    },
+    {
+      "name": "Sarah Davis",
+      "pic": "https://randomuser.me/api/portraits/women/3.jpg",
+      "education": "M.Ed. in Physics",
+      "post": "Physics Teacher",
+      "research": "Quantum Mechanics"
+    },
+    {
+      "name": "David Wilson",
+      "pic": "https://randomuser.me/api/portraits/men/3.jpg",
+      "education": "M.Ed. in Chemistry",
+      "post": "Chemistry Teacher",
+      "research": "Organic Chemistry"
+    },
+    {
+      "name": "Laura Martinez",
+      "pic": "https://randomuser.me/api/portraits/women/4.jpg",
+      "education": "M.Ed. in Biology",
+      "post": "Biology Teacher",
+      "research": "Genetics"
+    },
+    {
+      "name": "Robert Anderson",
+      "pic": "https://randomuser.me/api/portraits/men/4.jpg",
+      "education": "M.Ed. in Geography",
+      "post": "Geography Teacher",
+      "research": "Cartography"
+    },
+    {
+      "name": "Jessica Taylor",
+      "pic": "https://randomuser.me/api/portraits/women/5.jpg",
+      "education": "M.Ed. in Literature",
+      "post": "Literature Teacher",
+      "research": "Comparative Literature"
+    },
+    {
+      "name": "Thomas Moore",
+      "pic": "https://randomuser.me/api/portraits/men/5.jpg",
+      "education": "M.Ed. in Physical Education",
+      "post": "PE Teacher",
+      "research": "Sports Science"
+    },
+    {
+      "name": "Karen Miller",
+      "pic": "https://randomuser.me/api/portraits/women/6.jpg",
+      "education": "M.Ed. in Music",
+      "post": "Music Teacher",
+      "research": "Music Theory"
+    },
+    {
+      "name": "James Lee",
+      "pic": "https://randomuser.me/api/portraits/men/6.jpg",
+      "education": "M.Ed. in Art",
+      "post": "Art Teacher",
+      "research": "Renaissance Art"
+    },
+    {
+      "name": "Linda Perez",
+      "pic": "https://randomuser.me/api/portraits/women/7.jpg",
+      "education": "M.Ed. in Computer Science",
+      "post": "Computer Science Teacher",
+      "research": "Artificial Intelligence"
+    },
+    {
+      "name": "Christopher Thomas",
+      "pic": "https://randomuser.me/api/portraits/men/7.jpg",
+      "education": "M.Ed. in Economics",
+      "post": "Economics Teacher",
+      "research": "Behavioral Economics"
+    },
+    {
+      "name": "Barbara Harris",
+      "pic": "https://randomuser.me/api/portraits/women/8.jpg",
+      "education": "M.Ed. in Social Studies",
+      "post": "Social Studies Teacher",
+      "research": "Cultural Anthropology"
+    },
+    {
+      "name": "Matthew Jackson",
+      "pic": "https://randomuser.me/api/portraits/men/8.jpg",
+      "education": "M.Ed. in Philosophy",
+      "post": "Philosophy Teacher",
+      "research": "Existentialism"
+    },
+    {
+      "name": "Elizabeth Martin",
+      "pic": "https://randomuser.me/api/portraits/women/9.jpg",
+      "education": "M.Ed. in Political Science",
+      "post": "Political Science Teacher",
+      "research": "International Relations"
+    },
+    {
+      "name": "Daniel Thompson",
+      "pic": "https://randomuser.me/api/portraits/men/9.jpg",
+      "education": "M.Ed. in Psychology",
+      "post": "Psychology Teacher",
+      "research": "Cognitive Psychology"
+    },
+    {
+      "name": "Patricia White",
+      "pic": "https://randomuser.me/api/portraits/women/10.jpg",
+      "education": "M.Ed. in Sociology",
+      "post": "Sociology Teacher",
+      "research": "Urban Sociology"
+    },
+    {
+      "name": "Mark Garcia",
+      "pic": "https://randomuser.me/api/portraits/men/10.jpg",
+      "education": "M.Ed. in Environmental Science",
+      "post": "Environmental Science Teacher",
+      "research": "Climate Change"
+    }
+  ]
+  

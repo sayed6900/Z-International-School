@@ -69,7 +69,7 @@ const NewsMedia = () => {
         </div>
       </div>
 
-      {/* Part 2 */}
+      {/* Part 2 News Events*/}
       <div className=" p-2 m-2 space-y-3">
         <h1 className="text-3xl font-bold text-blue-500">News & Media</h1>
         <div className="flex">
@@ -119,7 +119,7 @@ const NewsMedia = () => {
         </div>
       </div>
 
-      {/* Part 3 */}
+      {/* Part 3 Form*/}
       <div className="w-1/3">
         <div className="hero bg-blue-200 ">
           <div className="hero-content flex-col ">

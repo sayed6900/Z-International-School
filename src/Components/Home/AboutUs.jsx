@@ -8,7 +8,7 @@ const AboutUs = () => {
       </div>
       <div className="w-1/2  lg:ml-12 lg:mr-8 lg:p-8 space-y-4">
         <p className="text-white font-bold text-lg"> About us</p>
-        <h1 className="text-blue-600 font-extrabold text-4xl">Z International School is admitting students from Playgroup to Grade 7</h1>
+        <h1 className="text-blue-900 font-extrabold text-4xl">Z International School is admitting students from Playgroup to Grade 7</h1>
         <p className=" text-white">
           Z International School follows the Pearson Edexcel curriculum and intends to
           deliver excellent educational programs in the following Key Learning
