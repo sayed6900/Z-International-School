@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import kids1 from "../../../src/assets/image/kids1.jpg";
 import kids2 from "../../../src/assets/image/kids2.jpg";
 
@@ -18,9 +19,9 @@ const Banner = () => {
           a journey of learning and enlightenment.
         </p>
         <div className="flex justify-between ">
-          <button className="text-white btn btn-primary">
+          <Link to='applyOnline'><button className="text-white btn btn-primary">
             Enroll Your Kid
-          </button>
+          </button></Link>
           <div className="">
             <div className="rating">
               <input

@@ -1,3 +1,4 @@
+import { Link, NavLink } from "react-router-dom";
 import howToapply from "../../assets/image/howtoapply.png";
 
 const HowToApply = () => {
@@ -7,7 +8,7 @@ const HowToApply = () => {
       {/* 1st part flex 2 items */}
       <div className="flex mt-5">
         <div className="space-y-4 w-1/2">
-          <h1 className="text-blue-800 font-bold text-3xl">Dowload Form</h1>
+          <h1 className="text-blue-800 font-bold text-3xl">Download Form</h1>
           <p className="pb-6">Download form & submit at our office</p>
           <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-blue-500 text-white">
             Download Form
@@ -18,12 +19,12 @@ const HowToApply = () => {
           <div className="space-y-4 ml-10">
             <h1 className="text-blue-800 font-bold text-3xl">Online Method</h1>
             <p className="pb-6">
-              Click <span className="text-blue-600 font-bold">Apply Now</span>{" "}
+              Click <span className="text-blue-600 font-bold">Apply Now</span>
               button to apply online
             </p>
-            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-blue-500 text-white">
-              Apply Now
-            </button>
+            <Link to='/applyOnline'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg mt-4 bg-blue-500 text-white">
+            Apply Now
+          </button></Link>
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
-import kidsCover from "../../assets/image/kidsCover.jpg";
+import { Link } from "react-router-dom";
+
 
 const History = () => {
   return (
@@ -104,7 +105,7 @@ const History = () => {
       </div>
       <div className="absolute flex justify-center items-center -bottom-10 left-72 bg-blue-400">
         <h1 className="text-lg font-bold p-8 text-white ">Start your Beautiful & Bright Future From Here</h1>
-        <button className="btn btn-primary m-8">Apply Now</button>
+        <Link to='howToApply'><button className="btn btn-primary m-8">Apply Now</button></Link>
       </div>
     </div>
   );

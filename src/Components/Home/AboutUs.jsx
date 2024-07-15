@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import kid3 from "../../../src/assets/image/kids3.jpeg";
 
 const AboutUs = () => {
@@ -18,7 +19,7 @@ const AboutUs = () => {
           Here at Reverie School, we aim to help our precious children to think
           and act in ways that are truly inspiring.
         </p>
-        <button className="btn btn-outline btn-primary">Know more about us</button>
+        <Link to='/whyUs'><button className="btn btn-outline btn-primary">Know more about us</button></Link>
       </div>
     </div>
   );

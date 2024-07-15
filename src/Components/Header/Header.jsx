@@ -13,7 +13,7 @@ const Header = () => {
             {/* without Icon Button Navbar */}
   
   <div className="flex-none">
-    <ul className="menu menu-horizontal px-1 ">
+    <ul className="menu menu-horizontal space-x-5 px-1 ">
       <li className="hover:bg-blue-500 rounded-md"><Link to='/'>Home</Link></li>
       <li>
         <details className="hover:bg-blue-500 rounded-md z-50">
@@ -49,14 +49,15 @@ const Header = () => {
           </ul>
         </details>
       </li>
-      <li className="hover:bg-blue-500 rounded-md"><a>Contact Us</a></li>
+      <li className="hover:bg-blue-500 rounded-md"><Link to='contactUs'>Contact Us</Link></li>
       <li className="hover:bg-blue-500 rounded-md"><a>Achievements</a></li>
-      <li className="hover:bg-blue-500 rounded-md"><a>Key Information</a></li>
       <li className="hover:bg-blue-500 rounded-md"><Link to='policy'>Policies</Link></li>
-      <li className="hover:bg-blue-500 rounded-md"><a>Facilities</a></li>
+      <li className="hover:bg-blue-500 rounded-md"><Link to='facilities'>Facilities</Link></li>
       <li className="hover:bg-blue-500 rounded-md"><Link to='campus'>Request For A Tour</Link></li>
     </ul>
-    <Link to='login'> <button className="btn btn-primary">Login</button> </Link>
+    <div >
+    <Link to='login'> <button className="btn btn-primary bg-blue-900 ml-10">Login</button> </Link>
+    </div>
   </div>
 </div>
         </div>

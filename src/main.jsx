@@ -18,7 +18,9 @@ import HowToApply from './Pages/AdmissionPage/HowToApply.jsx';
 import ApplyOnline from './Pages/AdmissionPage/ApplyOnline.jsx';
 import OnlinePayment from './Pages/AdmissionPage/OnlinePayment.jsx';
 import Fees from './Pages/AdmissionPage/Fees.jsx';
-import Policies from './Components/Policies/Policies.jsx';
+import Policies from './Components/Policies/Policies';
+import ContactUs from './Components/ContactUs/ContactUs';
+import Facilities from './Components/Facilities/Facilities';
 
 const router = createBrowserRouter([
   {
@@ -91,6 +93,14 @@ const router = createBrowserRouter([
       {
         path:'/policy',
         element:<Policies></Policies> ,
+      },
+      {
+        path:'/contactUs',
+        element:<ContactUs></ContactUs> ,
+      },
+      {
+        path:'/facilities',
+        element:<Facilities></Facilities> ,
       },
       
     ]

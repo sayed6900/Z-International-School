@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logoImg from '../../src/assets/image/Z int school logo.jpg'
 
 const NavDrawer = () => {
@@ -36,7 +37,7 @@ const NavDrawer = () => {
       <br /> Dhaka-1200</p>
       <p>Call: 017115114641</p>
       
-      <button className='btn btn-info mt-3'>Visit Gulshan Campus</button>
+      <Link to='/campus'><button className='btn btn-info mt-3'>Visit Gulshan Campus</button></Link>
     </div>
   </div>
 </div>

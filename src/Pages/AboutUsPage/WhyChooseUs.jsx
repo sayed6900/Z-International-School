@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
             <div className="w-2/3">
               <p className="space-y-2 pl-6">
                 <h1 className="font-bold text-xl text-blue-500 pb-3">
-                  At Z International School we offer:{" "}
+                  At Z International School we offer:
                 </h1>
                 1.Superb Quality British education <br />
                 2.Unique Islamic Schooling <br />
