@@ -13,14 +13,14 @@ const NewsMedia = () => {
       <div >
         {/* left to right image */}
         <div className="card bg-base-100 shadow-xl lg:mb-20">
-        <div className="overflow-hidden w-full lg:h-60 relative">
+        <div className="overflow-hidden w-full  relative">
       <div className="move-right flex">
         {images.map((src, index) => (
           <img
             key={index}
             src={src}
             alt={`Moving ${index}`}
-            className="lg:h-60 w-auto"
+            className="w-auto"
           />
         ))}
       </div>

@@ -19,7 +19,7 @@ const AboutUs = () => {
           Here at Reverie School, we aim to help our precious children to think
           and act in ways that are truly inspiring.
         </p>
-        <Link to='/whyUs'><button className="btn btn-outline btn-primary">Know more about us</button></Link>
+        <Link to='/whyUs'><button className="btn btn-outline mt-3 btn-primary">Know more about us</button></Link>
       </div>
     </div>
   );

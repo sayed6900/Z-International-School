@@ -38,7 +38,7 @@ const Header = () => {
           <summary>Admission</summary>
           <ul className="bg-blue-600 text-white rounded-t-none p-2">
           <li className=" hover:text-orange-500 font-semibold"><Link to='admission'>1. A brief admission Procedure</Link></li> 
-          <li className=" hover:text-orange-500 font-semibold"><Link >2. Scholarship</Link></li> 
+          <li className=" hover:text-orange-500 font-semibold"><Link to='scholarship' >2. Scholarship</Link></li> 
           <li className=" hover:text-orange-500 font-semibold"><Link to='fees'>3. School fees</Link></li> 
           <li className=" hover:text-orange-500 font-semibold"><Link >4. Withdrawal Policy</Link></li> 
           <li className=" hover:text-orange-500 font-semibold"><Link >5.FAQ on Admissions </Link></li> 
@@ -50,7 +50,7 @@ const Header = () => {
         </details>
       </li>
       <li className="hover:bg-blue-500 rounded-md"><Link to='contactUs'>Contact Us</Link></li>
-      <li className="hover:bg-blue-500 rounded-md"><a>Achievements</a></li>
+      <li className="hover:bg-blue-500 rounded-md"><Link to='achievements'>Achievements</Link></li>
       <li className="hover:bg-blue-500 rounded-md"><Link to='policy'>Policies</Link></li>
       <li className="hover:bg-blue-500 rounded-md"><Link to='facilities'>Facilities</Link></li>
       <li className="hover:bg-blue-500 rounded-md"><Link to='campus'>Request For A Tour</Link></li>

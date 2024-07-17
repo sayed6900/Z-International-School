@@ -21,6 +21,8 @@ import Fees from './Pages/AdmissionPage/Fees.jsx';
 import Policies from './Components/Policies/Policies';
 import ContactUs from './Components/ContactUs/ContactUs';
 import Facilities from './Components/Facilities/Facilities';
+import Achievements from './Components/Achievements/Achievements';
+import Scholarship from './Pages/AdmissionPage/Scholarship.jsx';
 
 const router = createBrowserRouter([
   {
@@ -101,6 +103,14 @@ const router = createBrowserRouter([
       {
         path:'/facilities',
         element:<Facilities></Facilities> ,
+      },
+      {
+        path:'/achievements',
+        element:<Achievements></Achievements> ,
+      },
+      {
+        path:'/scholarship',
+        element:<Scholarship></Scholarship> ,
       },
       
     ]

@@ -9,5 +9,12 @@ export default {
     extend: {},
   },
   plugins: [require('daisyui'),],
+  daisyui: {
+    themes: ["synthwave", "light","dark",
+      "cupcake",
+      "bumblebee",
+      "emerald",
+      "corporate",], // Add your desired themes here
+  },
 }
 

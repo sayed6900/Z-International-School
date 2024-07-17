@@ -27,7 +27,26 @@
   }
   
   .move-right {
-    animation: moveRight 20s linear infinite;
-    animation-delay: 5s;
+    animation: moveRight 5s linear infinite;
+    
+  }
+
+  @keyframes moveRightFast {
+    0% {
+      transform: translateX(50);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .move-right-fast {
+    @apply flex;
+    animation: moveRightFast 5s linear infinite;
+    width: 200%; /* Adjust this based on the total width of all images */
+  }
+  .image-container {
+    display: flex;
+    
   }
   
