@@ -1,6 +1,7 @@
-# React + Vite
+# Z International School
+Clint Side Application Live Link : https://new-z-international-school.netlify.app/ 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
 
 Currently, two official plugins are available:
 
